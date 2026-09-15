@@ -19,7 +19,3 @@ __pycache__/
 *.log
 .idea/
 captures/
-
-# Local product brief and delivery tracking; not repository documentation.
-/NodeNote_Worldbuilder_Codex_Prompt.md
-/IMPLEMENTATION_STATUS.md

@@ -12,7 +12,7 @@ if not apk.is_file():
     raise SystemExit('No Gradle debug APK. Run verification first; packaging cannot fabricate a build.')
 shutil.copy2(apk,art/'NodeNote-Worldbuilder-debug.apk')
 allowed_dirs={'app','core','gradle','scripts','docs','.github'}
-allowed_root={'README.md','CONTRIBUTING.md','CHANGELOG.md','AGENTS.md','.gitignore','.gitattributes','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat'}
+allowed_root={'README.md','CONTRIBUTING.md','CHANGELOG.md','.gitignore','.gitattributes','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat'}
 with zipfile.ZipFile(art/'NodeNote-Worldbuilder-source.zip','w',zipfile.ZIP_DEFLATED) as archive:
     candidates = [root / name for name in allowed_root]
     for directory in sorted(allowed_dirs):

@@ -31,4 +31,4 @@
 | [Performance](PERFORMANCE.md) | Measured fixtures and the limits of emulator results |
 | [Contributing](../CONTRIBUTING.md) | Change/review workflow and data-preservation rules |
 
-Raw device logs, generated packages and local planning/delivery notes stay out of Git. The repository includes [sample screenshots](images/); GitHub Actions uploads its own build reports. [AGENTS.md](../AGENTS.md) summarizes repository engineering rules.
+Generated packages and raw device logs stay out of Git. The repository includes [sample screenshots](images/); GitHub Actions uploads its own build reports.
