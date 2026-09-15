@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NodeNote Worldbuilder</string>
+    <string name="app_name">World Note</string>
     <string name="library">Library</string>
     <string name="boards">Boards</string>
     <string name="timeline">Timeline</string>

@@ -10,10 +10,10 @@ art.mkdir(exist_ok=True)
 apk=root/'app/build/outputs/apk/debug/app-debug.apk'
 if not apk.is_file():
     raise SystemExit('No Gradle debug APK. Run verification first; packaging cannot fabricate a build.')
-shutil.copy2(apk,art/'NodeNote-Worldbuilder-debug.apk')
+shutil.copy2(apk,art/'World-Note-debug.apk')
 allowed_dirs={'app','core','gradle','scripts','docs','.github'}
 allowed_root={'README.md','CONTRIBUTING.md','CHANGELOG.md','.gitignore','.gitattributes','settings.gradle.kts','build.gradle.kts','gradle.properties','gradlew','gradlew.bat'}
-with zipfile.ZipFile(art/'NodeNote-Worldbuilder-source.zip','w',zipfile.ZIP_DEFLATED) as archive:
+with zipfile.ZipFile(art/'World-Note-source.zip','w',zipfile.ZIP_DEFLATED) as archive:
     candidates = [root / name for name in allowed_root]
     for directory in sorted(allowed_dirs):
         candidates.extend((root / directory).rglob('*'))
@@ -27,6 +27,6 @@ with zipfile.ZipFile(art/'NodeNote-Worldbuilder-source.zip','w',zipfile.ZIP_DEFL
         info.external_attr=((0o100755 if path.name in {'gradlew','verify.sh'} else 0o100644)<<16)
         info.compress_type=zipfile.ZIP_DEFLATED
         archive.writestr(info,path.read_bytes())
-files=[art/'NodeNote-Worldbuilder-debug.apk',art/'NodeNote-Worldbuilder-source.zip']
+files=[art/'World-Note-debug.apk',art/'World-Note-source.zip']
 (art/'SHA256SUMS').write_text(''.join(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}\n' for p in files),encoding='utf-8')
 for path in files: print(path, path.stat().st_size)

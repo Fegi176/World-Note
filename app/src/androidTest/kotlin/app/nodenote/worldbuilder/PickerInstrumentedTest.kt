@@ -46,7 +46,7 @@ class PickerInstrumentedTest {
         }
         rule.onNodeWithText("OK").performClick()
         rule
-            .onNodeWithText("Restore / NodeNote / JSON Canvas import")
+            .onNodeWithText("Restore / import backup")
             .performScrollTo()
             .performClick()
         device.waitForIdle()
@@ -69,7 +69,7 @@ class PickerInstrumentedTest {
         }
         rule.onNodeWithText("OK").performClick()
         rule
-            .onNodeWithText("Restore / NodeNote / JSON Canvas import")
+            .onNodeWithText("Restore / import backup")
             .performScrollTo()
             .performClick()
         device.wait(Until.hasObject(By.text(exportName)), 30000)

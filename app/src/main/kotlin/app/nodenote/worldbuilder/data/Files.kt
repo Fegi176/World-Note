@@ -118,7 +118,7 @@ class ManagedFiles(private val context: Context, private val repository: Reposit
                         fields =
                             mapOf(
                                 "caption" to "Geometric placeholder, generated locally.",
-                                "credit" to "NodeNote sample artwork",
+                                "credit" to "World Note sample artwork",
                                 "cover" to "true",
                             ),
                     )

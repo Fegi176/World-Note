@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2 — 2026-09-15
+
+- Renamed the app to **World Note**, including the launcher, welcome screen and export filenames.
+- Kept the existing install identity and backup format so updates retain saved worlds and earlier backups remain compatible.
+
 ## 0.2.1 — 2026-09-15
 
 - Import an image directly from a board as reusable lore with a managed original.

@@ -125,7 +125,7 @@
   <string name="ui_no_state_recorded_for_this_period_826ab1" formatted="false">No state recorded for this period</string>
   <string name="ui_no_structural_or_chronology_conflict_4daaa6" formatted="false">No structural or chronology conflicts found.</string>
   <string name="ui_no_tolerance_means_uncertainty_is_un_8aa5f5" formatted="false">No tolerance means uncertainty is unspecified.</string>
-  <string name="ui_nodenote_6bb5c7" formatted="false">NodeNote</string>
+  <string name="ui_nodenote_6bb5c7" formatted="false">World Note</string>
   <string name="ui_not_to_scale_card_size_does_not_repr_9b3348" formatted="false">NOT TO SCALE · card size does not represent duration</string>
   <string name="ui_occurrence_uncertainty_is_separate_f_d2b31a" formatted="false">Occurrence uncertainty is separate from a duration. Only the selected model is drawn; unused expressions are preserved.</string>
   <string name="ui_ok_565339" formatted="false">OK</string>
@@ -167,7 +167,7 @@
   <string name="ui_replace_matching_world_identities_a066b7" formatted="false">Replace matching world identities</string>
   <string name="ui_reset_daee76" formatted="false">Reset</string>
   <string name="ui_restore_as_new_revision_b5a566" formatted="false">Restore as new revision</string>
-  <string name="ui_restore_nodenote_json_canvas_import_4ffdda" formatted="false">Restore / NodeNote / JSON Canvas import</string>
+  <string name="ui_restore_nodenote_json_canvas_import_4ffdda" formatted="false">Restore / import backup</string>
   <string name="ui_restore_or_import_existing_notes_7c3066" formatted="false">Restore or import existing notes</string>
   <string name="ui_return_to_author_s_history_f161ce" formatted="false">Return to author\'s history</string>
   <string name="ui_reuse_167317" formatted="false">Reuse: </string>

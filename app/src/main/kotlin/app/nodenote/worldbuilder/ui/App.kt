@@ -296,7 +296,7 @@ fun NodeNoteApp(vm: AppModel) {
                                 AtlasHero(
                                     stringResource(R.string.ui_a_world_worth_remembering_ce5ea2),
                                     "Build a private library of people, places, and histories. Everything stays on this device.",
-                                    "NodeNote / world atlas",
+                                    "World Note / world atlas",
                                 )
                                 Button(onClick = { worldDialog = true }, Modifier.fillMaxWidth()) {
                                     Text(stringResource(R.string.ui_create_my_world_fde6e0))
@@ -904,7 +904,7 @@ fun NodeNoteApp(vm: AppModel) {
                                 exportMode = askExport!!
                                 askExport = null
                                 exportPicker.launch(
-                                    "NodeNote-${exportMode.replace(' ','-')}.${when(exportMode){"backup"->"nnbackup"
+                                    "World-Note-${exportMode.replace(' ','-')}.${when(exportMode){"backup"->"nnbackup"
 "world"->"nnworld"
 "markdown","public","draft"->"md"
 "canvas"->"canvas"

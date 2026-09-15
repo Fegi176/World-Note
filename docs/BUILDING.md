@@ -76,8 +76,8 @@ python scripts/package.py
 
 Outputs are ignored by Git:
 
-- `artifacts/NodeNote-Worldbuilder-debug.apk`
-- `artifacts/NodeNote-Worldbuilder-source.zip`
+- `artifacts/World-Note-debug.apk`
+- `artifacts/World-Note-source.zip`
 - `artifacts/SHA256SUMS`
 
 Source packaging includes source/tests/schemas/wrapper/scripts/docs and excludes SDKs, caches, keys, local configuration and user databases. After packaging, `scripts/install-android14.ps1 -Serial YOUR_PHONE_SERIAL` checks Android 14 and updates/launches the app.

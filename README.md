@@ -1,10 +1,10 @@
-# NodeNote Worldbuilder
+# World Note
 
 **An offline Android notebook for worlds with interconnected people, places and history.**
 
 Write lore once, reuse it on visual boards, explain relationships, and organize ancient history without making up dates you do not know.
 
-**Native Kotlin + Jetpack Compose · Room/SQLite · Android 14 tested · Current test version: 0.2.1**
+**Native Kotlin + Jetpack Compose · Room/SQLite · Android 14 tested · Current test version: 0.2.2**
 
 <p>
   <img src="docs/images/library.png" width="260" alt="Dark green lore library with reusable entries">
@@ -43,7 +43,7 @@ Wait for **Saved** before deliberately closing the app. Backups contain readable
 
 ### Download the APK
 
-**[Download NodeNote 0.2.1 for Android](https://github.com/Fegi176/NodeNote/releases/download/v0.2.1/NodeNote-Worldbuilder-0.2.1.apk)** · [Release notes](https://github.com/Fegi176/NodeNote/releases/tag/v0.2.1)
+**[Download World Note 0.2.2 for Android](https://github.com/Fegi176/NodeNote/releases/download/v0.2.2/World-Note-0.2.2.apk)** · [Release notes](https://github.com/Fegi176/NodeNote/releases/tag/v0.2.2)
 
 Open the APK on your phone to install. This is a signed test release for Android 14. Android may ask you to allow installation from your browser or file manager. Install updates over the existing app to keep your data. Downloads require repository access while this repository is private.
 

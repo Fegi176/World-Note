@@ -10,7 +10,7 @@ $phoneReady = @(adb devices | Where-Object { $_ -match ('^' + [regex]::Escape($S
 if ($phoneReady.Count -ne 1) { throw 'Phone is disconnected or unauthorized. Unlock it and accept Allow USB debugging. No app was changed.' }
 $api = (adb -s $Serial shell getprop ro.build.version.sdk | Out-String).Trim()
 if ($api -ne '34') { throw "This installer targets the owner's Android 14 phone; connected API is $api." }
-$apk = Join-Path (Split-Path $PSScriptRoot -Parent) 'artifacts/NodeNote-Worldbuilder-debug.apk'
+$apk = Join-Path (Split-Path $PSScriptRoot -Parent) 'artifacts/World-Note-debug.apk'
 if (-not (Test-Path -LiteralPath $apk)) { throw 'Build and package the APK first.' }
 adb -s $Serial install -r $apk
 if ($LASTEXITCODE -ne 0) { throw 'Update failed. Existing app data was not cleared; do not uninstall to fix a signing conflict.' }

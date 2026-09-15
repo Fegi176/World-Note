@@ -38,7 +38,7 @@ Pan on empty space, pinch to zoom and drag cards to move them. Select cards to r
 
 ### Images and richer cards
 
-For a new image, use **Image** on the board. NodeNote copies the original into private storage; deleting the picked source does not remove the imported copy.
+For a new image, use **Image** on the board. World Note copies the original into private storage; deleting the picked source does not remove the imported copy.
 
 For an existing entry:
 
@@ -80,7 +80,7 @@ Open **Menu → Settings & backup → Complete workspace backup**, then choose a
 
 A complete backup includes lore, images, boards, chronology, drafts, revisions, trash and preferences. It is the lossless restore format. Keep a copy outside the phone; app-private recovery files do not protect against device loss.
 
-To restore, select **Restore / NodeNote / JSON Canvas import**, choose the file and review the validated summary. **Import as new worlds** keeps the existing worlds separate. Replacement is an explicit choice and creates an internal safety archive first.
+To restore, select **Restore / import backup**, choose the file and review the validated summary. **Import as new worlds** keeps the existing worlds separate. Replacement is an explicit choice and creates an internal safety archive first.
 
 **Markdown** is for readable exports. **JSON Canvas** is board interchange and cannot represent the entire world model; neither replaces a complete backup. Backups/author exports contain readable private lore and are not encrypted.
 
@@ -90,11 +90,11 @@ To restore, select **Restore / NodeNote / JSON Canvas import**, choose the file 
 - **An image preview is broken.** Open **Storage & recovery** to clear regenerable previews. Originals are retained.
 - **Where are safety copies?** In **Storage & recovery**, where you can inspect/export them before explicitly removing them.
 - **The update will not install.** Confirm Android/ADB authorization and signing identity. Do not uninstall or clear app data to fix a signing mismatch.
-- **Can I use the app offline?** Yes. A system document provider you choose may require its own network access; NodeNote itself has no INTERNET permission.
+- **Can I use the app offline?** Yes. A system document provider you choose may require its own network access; World Note itself has no INTERNET permission.
 
 ## 8. Storage and current limits
 
-Your notes and imported originals stay in app-private storage. NodeNote has no account, analytics or background network access. Android cloud backup is disabled; use a complete workspace backup to keep an external copy. Backup files and author exports are readable and unencrypted.
+Your notes and imported originals stay in app-private storage. World Note has no account, analytics or background network access. Android cloud backup is disabled; use a complete workspace backup to keep an external copy. Backup files and author exports are readable and unencrypted.
 
 Images are limited to 32 MiB / 80 megapixels. Animated images display a still preview while retaining the original file. Complete backups are limited to 512 MiB, with 64 MiB per member and 10,000 members. See [backup format](BACKUP_FORMAT.md) for details.
 
