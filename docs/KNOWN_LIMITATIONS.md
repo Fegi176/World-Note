@@ -1,9 +1,9 @@
 # Qualification limits — 0.2.1
 
-All REQUIRED feature groups have native implementation paths. These limits distinguish test evidence from guarantees; they are not hidden feature stubs.
+These limits distinguish tested behavior from broader qualification.
 
-1. **Android 14 is the target.** Versions 0.1.0 and 0.2.0 were successfully installed/launched on the owner's Samsung SM-G990B2. The 0.2.0 update used adb install -r after reconnection, with no uninstall or data clear. Complete physical-device workflow/performance qualification remains open. The 0.2.1 board-image update was subsequently installed and launched successfully after USB debugging authorization; no uninstall or data clear was used. No later-version work is required for this delivery.
-2. Automated Android accessibility checks, main contrast pairs, native writing/gestures and emulator display variations are exercised as recorded in TEST_REPORT.md. A manual spoken TalkBack review and broad vendor/keyboard/provider qualification remain unperformed.
+1. **Android 14 is the target.** Version 0.2.1 was installed and launched on a Samsung Android 14 phone. Full physical workflow/performance qualification remains open.
+2. Automated Android accessibility checks, main contrast pairs, native writing/gestures and emulator display variations are recorded in TESTING.md. A manual spoken TalkBack review and broad vendor/keyboard/provider qualification remain unperformed.
 3. The UI retains a complete logical world, with incremental loading and reuse of unchanged records after debounced invalidations. Typical/stress SQLite and actual stress-board observations are reported without claiming a universal phone frame-rate target. Paging and advanced graph layouts are optional future optimizations.
 4. Restore fault injection covers file promotion and SQL commit boundaries, journal recovery, cross-world identity collisions and atomic replacement. Parser expansion/truncation and bad images are tested. Actual hardware power loss, filled physical volumes and every third-party document-provider failure cannot be inferred from those tests.
 5. Backup bounds: 512 MiB total, 64 MiB/member, 10,000 members. Images: 32 MiB/80 MP. Oversize data is rejected explicitly. No silent truncation.
@@ -13,4 +13,4 @@ All REQUIRED feature groups have native implementation paths. These limits disti
 9. Incompatible type conversions require resolving typed references. Complete backups are lossless; JSON Canvas/Markdown may be lossy, with warnings and original input retained.
 10. Durable navigation, filters, scroll, selection and editor context are restored. Transient confirmation dialogs and unsent creation dialogs intentionally do not replay after process death. A settled force-stop test does not prove an arbitrary unsaved keystroke survives a power cut.
 11. No original NodeNote source/archive/signing certificate was supplied. Legacy interchange uses synthetic fixtures; optional same-package legacyUpgrade remains unavailable. The signed test APK uses a debug certificate, not a production release key. GitHub Actions results are separate from the local verification recorded here; consult the repository Actions page for the current run.
-12. EXTENDED WX-01–WX-06 (maps, calendars, advanced perspectives, family views, scheduled external backups and advanced layouts/diffs) are outside REQUIRED scope. FUT-01–FUT-03 remain excluded.
+12. Maps, full calendars, advanced character perspectives, family views, scheduled external backups and advanced layouts/diffs are not implemented. Cloud sync, AI generation and terrain painting are outside this release.

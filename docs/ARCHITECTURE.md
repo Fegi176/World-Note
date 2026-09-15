@@ -51,7 +51,7 @@ Story reveal order, author truth, explicit character knowledge and recorded publ
 
 A complete archive is inspected before mutation. Original images are staged/promoted with a recovery journal; database insertion/replacement is transactional. Replacement first produces a verified safety archive. Startup journal recovery resolves interrupted file promotion against committed attachment identities.
 
-These boundaries are covered by tests, but they are not a guarantee for every hardware power-loss timing or document provider. See [backup format](BACKUP_FORMAT.md), [test report](TEST_REPORT.md) and [limitations](KNOWN_LIMITATIONS.md).
+These boundaries are covered by tests, but they are not a guarantee for every hardware power-loss timing or document provider. See [backup format](BACKUP_FORMAT.md), [testing and coverage](TESTING.md) and [limitations](KNOWN_LIMITATIONS.md).
 
 ## Testing boundaries
 

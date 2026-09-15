@@ -64,7 +64,7 @@ $env:ANDROID_SERIAL = 'YOUR_TEST_DEVICE_SERIAL'
 ./gradlew.bat -PtestBuildType=qa :app:connectedQaAndroidTest --console=plain
 ```
 
-It uses `app.nodenote.worldbuilder.qa`. Display/restart/upgrade scripts require dedicated emulator serials. The upgrade script requires the debug package to be absent at the beginning. Read prerequisites; do not remove a personal package to satisfy a test.
+It uses `app.nodenote.worldbuilder.qa`. Display and restart smoke scripts require dedicated emulator serials. Read their prerequisites before running them.
 
 ## Package a local delivery
 

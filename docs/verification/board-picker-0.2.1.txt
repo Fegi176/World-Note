@@ -1,2 +1,0 @@
-PASS: Board Image opens native Android DocumentsUI
-PASS: cancelling picker returns to native board

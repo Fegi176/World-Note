@@ -18,7 +18,7 @@
 
 ## 0.1.0 — 2026-09-15
 
-- Initial native Kotlin/Compose/Room implementation of REQUIRED WB-01–WB-18.
+- Initial native Kotlin/Compose/Room app.
 - Reusable lore and relationships, visual boards, writing/media, Epoch Codex, flexible chronology, historical states, reveals, knowledge/accounts, recovery, complete backups and interchange.
 
-See the [test report](docs/TEST_REPORT.md) for exact coverage and the [limitations](docs/KNOWN_LIMITATIONS.md) for qualification that remains open. A passing subset does not certify the complete acceptance matrix.
+See [testing and coverage](docs/TESTING.md) and [limitations](docs/KNOWN_LIMITATIONS.md). A passing subset does not certify every interaction.

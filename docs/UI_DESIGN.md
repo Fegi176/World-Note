@@ -14,7 +14,7 @@ An original native Compose design built around the requested cobalt, black and p
 
 ## Validation
 
-`DesignInstrumentedTest` checks principal text/background pairs at contrast >=4.5:1 and enables Android's Compose Accessibility Test Framework for search, entry editing, board outline and storage controls. A separate test injects real two-finger gestures and checks that zoom does not move placements or rewrite lore. The native writing test covers 200% font scale. The emulator matrix script separately exercises 360dp / 200% navigation and landscape board/outline; exact execution outcomes are in TEST_REPORT.md.
+`DesignInstrumentedTest` checks principal text/background pairs at contrast >=4.5:1 and enables Android's Compose Accessibility Test Framework for search, entry editing, board outline and storage controls. A separate test injects real two-finger gestures and checks that zoom does not move placements or rewrite lore. The native writing test covers 200% font scale. The emulator matrix script separately exercises 360dp / 200% navigation and landscape board/outline; exact execution outcomes are in TESTING.md.
 
 Automated checks complement, but do not replace, a manual spoken TalkBack review. No such manual review is claimed.
 

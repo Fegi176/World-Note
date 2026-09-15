@@ -28,7 +28,7 @@ These timings exclude UI rendering, the 200 ms search debounce, and durable disk
 
 ## Native stress UI
 
-`StressUiInstrumentedTest` inserts a separately remapped stress world into the actual app database, opens the dense board, injects four two-finger gestures, captures gfxinfo/memory, then opens Outline. Exact results and limitations are recorded in TEST_REPORT.md and the raw `artifacts/performance-api34.log` capture.
+`StressUiInstrumentedTest` inserts a separately remapped stress world into the actual app database, opens the dense board, injects four two-finger gestures, captures gfxinfo/memory, then opens Outline. Exact results and limitations are recorded in TESTING.md and the raw `artifacts/performance-api34.log` capture.
 
 The final on-disk stress run measured generation + insertion **44,309 ms**, selected-world + board opening **2,638 ms**, and completed four pointer-injected pinches plus Outline navigation. Total process PSS was **271,300 KB**, including instrumentation/native memory. The 192 MB managed heap did not exhaust after incremental observation was introduced.
 

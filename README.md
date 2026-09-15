@@ -75,16 +75,16 @@ Source is tracked here; generated APKs, local source bundles and raw device logs
 
 ## Status and evidence
 
-This is a **signed native test release** with all REQUIRED WB-01–WB-18 feature paths implemented. It is still undergoing qualification.
+This is a **signed native test release**. It is still undergoing qualification.
 
 - **0.2.1:** four targeted Android 14 methods passed, plus native image-picker open/cancel; installed and launched on an Android 14 Samsung phone.
 - **0.2.0 baseline:** 42 JVM tests and 29 Android 14 instrumented methods passed. The full runtime suite was not repeated for the focused 0.2.1 change.
 - Manual spoken TalkBack review, broader physical-device performance and remaining acceptance variations are still open.
 
-Read [implementation status](IMPLEMENTATION_STATUS.md), [test evidence](docs/TEST_REPORT.md), [known limitations](docs/KNOWN_LIMITATIONS.md) and the [changelog](CHANGELOG.md). Optional maps, full calendars, advanced character perspectives, cloud sync and AI generation are not part of this release.
+Read [testing and coverage](docs/TESTING.md), [known limitations](docs/KNOWN_LIMITATIONS.md) and the [changelog](CHANGELOG.md). Maps, full calendars, advanced character perspectives, cloud sync and AI generation are not part of this release.
 
 ## Working on the project
 
 Start with [architecture](docs/ARCHITECTURE.md) and [contributing](CONTRIBUTING.md). Preserve separate lore/placement identities, transactional writes, unknown chronology and complete backup compatibility.
 
-The original [product specification](NodeNote_Worldbuilder_Codex_Prompt.md) is retained unchanged. [AGENTS.md](AGENTS.md) summarizes the essential engineering rules.
+[AGENTS.md](AGENTS.md) summarizes the essential engineering rules.
