@@ -31,7 +31,7 @@ Repository owns production writes, validates world/type references and uses tran
 
 Do not bypass Repository for ordinary mutations: raw DAO writes can leave incremental observation/search state stale. DAO-level access is reserved for migration/test setup.
 
-Database schema version, archive format version and application version are separate compatibility decisions. See [data model](DATA_MODEL.md).
+Database schema version (2), archive format version (1) and application version are separate compatibility decisions. Room stores worlds, typed records, scalar fields, ordered references and temporal expressions in separate tables, with a derived FTS4 search index. Keep exported schemas in `app/schemas/` and provide explicit migrations for schema changes.
 
 ## Editing and board operations
 
@@ -47,14 +47,10 @@ Chronology expressions retain their uncertainty and anchor identities. Resolutio
 
 Story reveal order, author truth, explicit character knowledge and recorded public accounts remain separate models. Public export uses an allowlisted projection of selected prose; there is no fallback to private canonical prose or captions.
 
+Fictional years use signed 64-bit integers, serialized as decimal strings. Present is an authored coordinate and does not follow the phone clock. Periods use half-open intervals `[start, end)`; occurrence ranges describe uncertainty, not duration. Relative dates preserve their anchor references. Resolution checks overflow, missing/cyclic anchors and contradictory ordering, while order-only records remain undated.
+
 ## Restore and recovery
 
 A complete archive is inspected before mutation. Original images are staged/promoted with a recovery journal; database insertion/replacement is transactional. Replacement first produces a verified safety archive. Startup journal recovery resolves interrupted file promotion against committed attachment identities.
 
-These boundaries are covered by tests, but they are not a guarantee for every hardware power-loss timing or document provider. See [backup format](BACKUP_FORMAT.md), [testing and coverage](TESTING.md) and [limitations](KNOWN_LIMITATIONS.md).
-
-## Testing boundaries
-
-Core tests cover pure semantics, bounds and formats. Instrumented tests use real Room/SQLite and native Android controls, including DocumentsUI, writing, gestures and accessibility checks. Synthetic typical/stress fixtures measure specific operations; they do not establish sustained performance on every phone.
-
-A real Android 14 phone has received the signed test updates and passed launch checks. Full physical TalkBack/performance qualification remains open.
+See [backup format](BACKUP_FORMAT.md) for archive structure, validation and import limits.

@@ -12,7 +12,7 @@ Set `JAVA_HOME` and `ANDROID_HOME`, or set `sdk.dir` in an untracked `local.prop
 sdkmanager "platforms;android-36" "build-tools;35.0.0" "platform-tools"
 ```
 
-The wrapper downloads Gradle 8.13. Initial setup needs network access; the installed app is offline. See [pinned versions](BUILD_ENVIRONMENT.md). Android 14/API 34 is the runtime target; compile SDK 36 is not the minimum phone version.
+The wrapper downloads Gradle 8.13. Initial setup needs network access; the installed app is offline. Plugin and dependency versions are pinned in the Gradle build files. Android 14/API 34 is the runtime target; compile SDK 36 is not the minimum phone version.
 
 ## Build
 
@@ -86,7 +86,7 @@ Source packaging includes source/tests/schemas/wrapper/scripts/docs and excludes
 
 [The workflow](../.github/workflows/android.yml) runs core tests, lint and assembly on pushes/PRs, validates the wrapper and uploads APK/report artifacts. Manual dispatch can enable a dedicated API 34 emulator run.
 
-CI APKs use the runner's debug identity. Check actual Actions results before claiming CI passed; local history is separate.
+CI APKs use the runner's debug signing identity, which can differ from the downloadable release APK.
 
 ## Troubleshooting
 

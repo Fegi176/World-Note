@@ -42,3 +42,9 @@ Combined Markdown and linked Markdown+images ZIP are author editions with privat
 Public history exports serialize only the projection allowlist; they never contain the author archive with a hidden flag. Review approved prose for manually entered spoilers. Public exports are a single Markdown document, so no private filenames or attachment captions are serialized.
 
 JSON Canvas is one board, text nodes/geometry/colors/labels and groups. Rich chronology and world-level semantics are flattened and disclosed in the export dialog. Unsupported external cards become explicit placeholders with raw source retained; no URL/file is fetched.
+
+## NodeNote v1 import
+
+Prototype backups with `format=nodenote` and `version=1` import into new worlds. Maps become boards, nodes become lore entries plus placements, and edges become relationships plus board edges. IDs are remapped per map and import batch; equal titles do not merge entries. Notes, labels, colors, coordinates and viewport transforms are retained, along with the original JSON for unsupported fields. Validation precedes transactional insertion.
+
+The current app uses a separate package from the prototype. Export a backup from the old app before importing it here; the new app cannot read another app's private storage.

@@ -1,13 +1,13 @@
 # Contributing
 
-Start with the [repository map](docs/REPOSITORY_MAP.md), [architecture](docs/ARCHITECTURE.md) and [known limitations](docs/KNOWN_LIMITATIONS.md).
+Start with the [repository map](docs/REPOSITORY_MAP.md) and [architecture](docs/ARCHITECTURE.md).
 
 ## Local workflow
 
 1. Use JDK 17 and the pinned Android SDK requirements in the [build guide](docs/BUILDING.md).
 2. Create a branch for a focused change. Keep existing writing, identities and archive compatibility intact.
 3. Run core tests, Android lint and assembly. Exercise changed data or UI behavior on a dedicated Android 14 emulator.
-4. Update the relevant guide and testing notes. Say exactly which checks ran, including failures and checks left open.
+4. Update the relevant guide when behavior or setup changes.
 5. Open a pull request explaining the behavior change, data/schema impact and validation.
 
 ## Rules that matter
@@ -20,7 +20,7 @@ Start with the [repository map](docs/REPOSITORY_MAP.md), [architecture](docs/ARC
 - Use a dedicated emulator or the separate `.qa` package. Connected debug tests can remove the tested package; never point them at a personal writing installation.
 - Commit source and curated synthetic screenshots only. Keep signing keys, SDKs, build output, credentials, private lore and device logs out of Git.
 
-Kotlin follows the existing ktfmt Kotlin style. Avoid reformatting unrelated files. Add meaningful regression checks for persistence, import/export, identity and gesture changes; documentation-only changes need link/content checks, not an invented runtime test claim.
+Follow the existing Kotlin style and avoid reformatting unrelated files. Add regression tests for changes to persistence, import/export, identity or gestures.
 
 ## Reporting bugs
 

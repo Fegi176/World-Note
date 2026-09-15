@@ -25,7 +25,7 @@ Write lore once, reuse it on visual boards, explain relationships, and organize 
 | **Stories and secrets** | Separate historical events from chapter reveals, author truth, public accounts and explicit character knowledge. |
 | **Recovery and portability** | Autosave drafts, retain revisions and trash, export readable Markdown, and restore complete versioned backups with original images. |
 
-Everything essential works locally. The app has **no account, ads, analytics or INTERNET permission**. A document provider selected by the owner may itself use the network. See [privacy](docs/PRIVACY.md).
+Everything essential works locally. The app has **no account, ads, analytics or INTERNET permission**. A document provider you choose may itself use the network.
 
 ## Start here
 
@@ -37,7 +37,7 @@ Everything essential works locally. The app has **no account, ads, analytics or 
 
 Wait for **Saved** before deliberately closing the app. Backups contain readable private lore; store them somewhere you control.
 
-**[User guide](docs/USER_GUIDE.md) · [Documentation index](docs/README.md) · [What is where](docs/REPOSITORY_MAP.md)**
+**[User guide](docs/USER_GUIDE.md) · [Build guide](docs/BUILDING.md) · [What is where](docs/REPOSITORY_MAP.md) · [Backup format](docs/BACKUP_FORMAT.md)**
 
 ## Build and install
 
@@ -45,7 +45,7 @@ Wait for **Saved** before deliberately closing the app. Backups contain readable
 
 **[Download NodeNote 0.2.1 for Android](https://github.com/Fegi176/NodeNote/releases/download/v0.2.1/NodeNote-Worldbuilder-0.2.1.apk)** · [Release notes](https://github.com/Fegi176/NodeNote/releases/tag/v0.2.1)
 
-Open the APK on your phone to install. This signed test release was tested on Android 14 and uses the same signing certificate as the existing 0.2.1 phone installation. Install over that version to keep your data. Android may ask you to allow installation from your browser or file manager. Downloads require repository access while this repository is private.
+Open the APK on your phone to install. This is a signed test release for Android 14. Android may ask you to allow installation from your browser or file manager. Install updates over the existing app to keep your data. Downloads require repository access while this repository is private.
 
 ### Build from source
 
@@ -78,19 +78,11 @@ Source is tracked here; generated APKs, local source bundles and raw device logs
 | [core/](core/) | Platform-independent model, chronology, graph math, validation and archive/interchange formats |
 | [app/schemas/](app/schemas/) | Versioned Room database schemas |
 | [scripts/](scripts/) | Build checks, packaging, installation and dedicated-emulator smoke checks |
-| [docs/](docs/) | User guide, architecture, data formats, verification and limitations |
+| [docs/](docs/) | User guide, build instructions, architecture, code map and backup format |
 | [.github/workflows/android.yml](.github/workflows/android.yml) | GitHub build/lint/test workflow with optional Android 14 instrumentation |
-
-## Status and evidence
-
-This is a **signed native test release**. It is still undergoing qualification.
-
-- **0.2.1:** four targeted Android 14 methods passed, plus native image-picker open/cancel; installed and launched on an Android 14 Samsung phone.
-- **0.2.0 baseline:** 42 JVM tests and 29 Android 14 instrumented methods passed. The full runtime suite was not repeated for the focused 0.2.1 change.
-- Manual spoken TalkBack review, broader physical-device performance and remaining acceptance variations are still open.
-
-Read [testing and coverage](docs/TESTING.md), [known limitations](docs/KNOWN_LIMITATIONS.md) and the [changelog](CHANGELOG.md). Maps, full calendars, advanced character perspectives and cloud sync are not part of this release.
 
 ## Working on the project
 
 Start with [architecture](docs/ARCHITECTURE.md) and [contributing](CONTRIBUTING.md). Preserve separate lore/placement identities, transactional writes, unknown chronology and complete backup compatibility.
+
+See the [changelog](CHANGELOG.md) for release changes.

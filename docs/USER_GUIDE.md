@@ -92,4 +92,10 @@ To restore, select **Restore / NodeNote / JSON Canvas import**, choose the file 
 - **The update will not install.** Confirm Android/ADB authorization and signing identity. Do not uninstall or clear app data to fix a signing mismatch.
 - **Can I use the app offline?** Yes. A system document provider you choose may require its own network access; NodeNote itself has no INTERNET permission.
 
-See [known limitations](KNOWN_LIMITATIONS.md) for format bounds and open qualification work.
+## 8. Storage and current limits
+
+Your notes and imported originals stay in app-private storage. NodeNote has no account, analytics or background network access. Android cloud backup is disabled; use a complete workspace backup to keep an external copy. Backup files and author exports are readable and unencrypted.
+
+Images are limited to 32 MiB / 80 megapixels. Animated images display a still preview while retaining the original file. Complete backups are limited to 512 MiB, with 64 MiB per member and 10,000 members. See [backup format](BACKUP_FORMAT.md) for details.
+
+The interface is English. Maps, full calendars, advanced character perspectives, family views, cloud sync and scheduled external backups are not currently available.
