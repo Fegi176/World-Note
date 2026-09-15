@@ -1,0 +1,325 @@
+{
+  "description": "Extracted from actual retained local 0.2.0 XML; core JVM plus Android14 emulator. Not a remote CI result.",
+  "suites": [
+    {
+      "suite": "app.nodenote.core.ArchiveFailureTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "methods": [
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "checksumMismatchRejected"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "outputDiskFullFailureIsNotSuccess"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "futureManifestFailsBeforeMutation"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "compressedExpansionLimitRejectsAndRemovesStaging"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "unixSymlinkAttributesRejected"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "allUnsafeNamesRejected"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "jsonDepthAndTruncationRejectedWhileBracesInProseAreSafe"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "truncatedArchiveCorpusNeverProducesAPartialWorkspace"
+        },
+        {
+          "class": "app.nodenote.core.ArchiveFailureTest",
+          "name": "duplicateCaseFoldedPathsAreRejected"
+        }
+      ]
+    },
+    {
+      "suite": "app.nodenote.core.ChronologyContractTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "methods": [
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "renamedOriginHasNoEffectOnHistory"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "emptyAndImpossibleSpansRejected"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "orderOnlyIsBetweenAnchorsInPresentationButHasNoNumericYear"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "linkedBoundaryEventRecomputesWithoutCopyingDates"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "contradictoryKnownOrderIsDiagnosed"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "pointUncertaintyAndDurationAreDifferentOriginalModels"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "boundedOffsetNegativePropagation"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "unknownEpochAndLocalEventRemainUnresolved"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "approximateOverlapDoesNotAssertContradiction"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "localYearOverflowDoesNotWrap"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "crossRegionOverlapsAreValid"
+        },
+        {
+          "class": "app.nodenote.core.ChronologyContractTest",
+          "name": "parentContainmentRequiresExplicitDisputedMarker"
+        }
+      ]
+    },
+    {
+      "suite": "app.nodenote.core.CoreTest",
+      "tests": 21,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "methods": [
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "epochLocalYearAndUnknown"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "largeTimelinePreservesNarrowDifferences"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "approximateHasNoInventedBounds"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "offsetPropagatesBounds"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "archiveRoundTripAndHash"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "markdownKeepsInternalLinksButDisablesScriptsAndRemoteImages"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "undoRedo"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "completeDemoIsValid"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "legacyScopedIdsAndUnicode"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "withinIsHalfOpenWindowNotMidpoint"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "transformInverseAndCentroidGenerated"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "canvasRoundTrip"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "archiveTraversalAndCorruptionRejected"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "sameYearSequenceIsValid"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "exact64BitRoundTrip"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "cyclesAndOverflowAreInvalid"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "futureLegacyRejected"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "orderCycleDetectedButGeneralGraphAllowed"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "remapAllReferencesAndRevision"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "publicProjectionLeaksNoCanonicalToken"
+        },
+        {
+          "class": "app.nodenote.core.CoreTest",
+          "name": "overlapLanesAndSharedBoundary"
+        }
+      ]
+    },
+    {
+      "suite": "app.nodenote.worldbuilder.DesignInstrumentedTest",
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "methods": [
+        {
+          "class": "app.nodenote.worldbuilder.DesignInstrumentedTest",
+          "name": "atlasContrastAndAccessibleNavigation"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.DesignInstrumentedTest",
+          "name": "nativePinchPreservesLoreAndPlacementCoordinates"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "duplicatedIdsAcrossOneImportAreRejectedAtomically"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "parallelRelationshipsRetainIndependentNotesAndBoardReferences"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "restoreFaultsRespectTheFileAndDatabaseCommitBoundary"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "collidingImportsAndForeignRemovalsCannotRewriteAnotherWorld"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "managedImageSurvivesDeletionOfThePickedSourceAndRejectsCorruption"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "renamingEqualTitlesRetainsInlineLinksAndSeparateIdentities"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "broadSearchDoesNotHideLaterMatchesBeforeUiFiltersAreApplied"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "incrementalObservationLoadsChangedChildrenAndReusesUnchangedProse"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "removingAnEntireBoardKeepsSharedLoreAndRelationshipNotes"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "storyReorderingAndRenamingCannotMoveHistoricalEventsOrLoseReveals"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "canonicalClaimEditsDoNotInferCharacterKnowledgeOrRewritePublicAccounts"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "replacementRetainsAVerifiedSafetyArchiveAndDoesNotDuplicateTheWorld"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.HardeningInstrumentedTest",
+          "name": "worldMetadataChangesReachTheObservedBundle"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.MigrationInstrumentedTest",
+          "name": "migrateRealPrefilledVersionOneDatabase"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.PerformanceInstrumentedTest",
+          "name": "typicalWorldIndexedSearchAndSnapshot"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.PerformanceInstrumentedTest",
+          "name": "stressWorldIndexedSearchAndSnapshot"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.PickerInstrumentedTest",
+          "name": "actualSystemBackupPickerRestoreAndCancel"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "longUnicodeSaveSearchAndWorldIsolation"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "demoIntegrityAndFullRoundTrip"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "rejectedEditIsAtomicAndDraftSurvives"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "lockedEntryTrashRevisionAndDuplication"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "archiveWithAssetsDraftsAndSecretsRoundTrips"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "configuredRevisionRetentionPrunesOnlySnapshots"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.RepositoryInstrumentedTest",
+          "name": "placementChangesCannotOverwriteLoreOrOtherBoards"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.StressUiInstrumentedTest",
+          "name": "onDiskStressWorldOpensAndPinchesTwoThousandPlacementBoard"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.UiInstrumentedTest",
+          "name": "nativeSampleNavigationAndChronology"
+        },
+        {
+          "class": "app.nodenote.worldbuilder.WritingInstrumentedTest",
+          "name": "rapidUnicodeDraftDoneBackgroundReopenAndFontScale"
+        }
+      ]
+    }
+  ]
+}

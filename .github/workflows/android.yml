@@ -1,0 +1,52 @@
+name: Native Android verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      instrumentation:
+        description: Run dedicated API 34 emulator checks
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0; validates wrapper
+      - name: Install pinned SDK requirements
+        run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0' 'platform-tools'
+      - name: Test, lint, build
+        run: bash scripts/verify.sh
+      - name: Verify signed debug identity
+        run: |
+          "$ANDROID_HOME/build-tools/35.0.0/apksigner" verify --verbose --print-certs app/build/outputs/apk/debug/app-debug.apk
+          "$ANDROID_HOME/cmdline-tools/latest/bin/apkanalyzer" manifest application-id app/build/outputs/apk/debug/app-debug.apk
+      - name: Optional dedicated emulator
+        if: github.event_name == 'workflow_dispatch' && inputs.instrumentation
+        run: |
+          sdkmanager 'emulator' 'system-images;android-34;google_apis;x86_64'
+          echo no | avdmanager create avd -n nodenote-test -k 'system-images;android-34;google_apis;x86_64' --device pixel_6
+          "$ANDROID_HOME/emulator/emulator" -avd nodenote-test -no-window -no-audio -gpu swiftshader_indirect > emulator.log 2>&1 &
+          export ANDROID_SERIAL=emulator-5554
+          adb wait-for-device
+          timeout 240 bash -c 'until [[ "$(adb shell getprop sys.boot_completed | tr -d "\r")" == 1 ]]; do sleep 2; done'
+          bash gradlew :app:connectedDebugAndroidTest --console=plain
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: NodeNote-test-build-and-reports
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            app/build/reports/
+            app/build/outputs/androidTest-results/
+            core/build/reports/tests/
+          retention-days: 14

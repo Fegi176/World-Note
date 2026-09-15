@@ -1,0 +1,224 @@
+<resources>
+  <string name="ui_a_board_annotation_is_local_and_does_a030c4" formatted="false">A board annotation is local and does not assert a world fact.</string>
+  <string name="ui_a_world_worth_remembering_ce5ea2" formatted="false">A world worth remembering</string>
+  <string name="ui_add_account_assertion_f21802" formatted="false">Add account assertion</string>
+  <string name="ui_add_child_97fd94" formatted="false">Add child</string>
+  <string name="ui_add_custom_field_53db6a" formatted="false">Add custom field</string>
+  <string name="ui_add_era_61c667" formatted="false">Add era</string>
+  <string name="ui_add_event_57d208" formatted="false">Add event</string>
+  <string name="ui_add_field_definition_dd77f6" formatted="false">Add field definition</string>
+  <string name="ui_add_historical_state_c379f7" formatted="false">Add historical state</string>
+  <string name="ui_add_knowledge_state_b760f1" formatted="false">Add knowledge state</string>
+  <string name="ui_add_reveal_2b47d1" formatted="false">Add reveal</string>
+  <string name="ui_add_section_7c3690" formatted="false">Add section</string>
+  <string name="ui_add_stage_76fa77" formatted="false">Add stage</string>
+  <string name="ui_add_story_node_ffba3e" formatted="false">Add story node</string>
+  <string name="ui_after_boundary_7d0108" formatted="false">After boundary</string>
+  <string name="ui_aliases_comma_separated_732ccf" formatted="false">Aliases (comma separated)</string>
+  <string name="ui_all_existing_notes_fields_period_eve_dad350" formatted="false">All existing notes, fields, period/event expressions, associations, and references are preserved. Specialized metadata remains available through Details and backups. The entry keeps its identity.</string>
+  <string name="ui_an_uncertain_occurrence_window_not_a_3e7e2d" formatted="false">An uncertain occurrence window, not a duration.</string>
+  <string name="ui_anchor_3c53bb" formatted="false">Anchor: </string>
+  <string name="ui_anchor_boundary_5c9493" formatted="false">Anchor boundary</string>
+  <string name="ui_apply_31e392" formatted="false">Apply</string>
+  <string name="ui_apply_layout_f2c282" formatted="false">Apply layout</string>
+  <string name="ui_author_truth_96433b" formatted="false">Author truth</string>
+  <string name="ui_back_up_and_delete_cad08a" formatted="false">Back up and delete</string>
+  <string name="ui_back_up_and_erase_bb60fc" formatted="false">Back up and erase</string>
+  <string name="ui_back_up_selected_world_c507ca" formatted="false">Back up selected world</string>
+  <string name="ui_backlinks_b4278c" formatted="false">Backlinks</string>
+  <string name="ui_before_boundary_12a4ea" formatted="false">Before boundary</string>
+  <string name="ui_board_annotation_0f6df8" formatted="false">Board annotation</string>
+  <string name="ui_board_undo_retains_100_commands_for__dfd48d" formatted="false">Board undo retains 100 commands for this session. Attachment originals remain pinned while records/revisions exist.</string>
+  <string name="ui_boards_4fcd39" formatted="false">Boards</string>
+  <string name="ui_cancel_19766e" formatted="false">Cancel</string>
+  <string name="ui_canon_778017" formatted="false">Canon</string>
+  <string name="ui_card_8b3f06" formatted="false">+ Card</string>
+  <string name="ui_card_color_470f3a" formatted="false">Card color</string>
+  <string name="ui_card_size_c8d980" formatted="false">Card size</string>
+  <string name="ui_change_display_type_1909c6" formatted="false">Change display type?</string>
+  <string name="ui_choose_destination_5853e2" formatted="false">Choose destination</string>
+  <string name="ui_choose_time_anchor_19282f" formatted="false">Choose time anchor</string>
+  <string name="ui_chronology_children_405e7e" formatted="false">Chronology &amp; children</string>
+  <string name="ui_chronology_review_6b14e9" formatted="false">Chronology review</string>
+  <string name="ui_clear_83b12c" formatted="false">Clear</string>
+  <string name="ui_close_7d9eb7" formatted="false">Close</string>
+  <string name="ui_combined_author_markdown_c951a0" formatted="false">Combined author Markdown</string>
+  <string name="ui_complete_workspace_backup_696632" formatted="false">Complete workspace backup</string>
+  <string name="ui_connect_1a2303" formatted="false">Connect</string>
+  <string name="ui_connect_cards_963b41" formatted="false">Connect cards</string>
+  <string name="ui_connecting_tap_the_target_card_back__377456" formatted="false">Connecting: tap the target card. Back cancels.</string>
+  <string name="ui_consistency_review_84895b" formatted="false">Consistency review</string>
+  <string name="ui_convert_sticky_to_lore_478d58" formatted="false">Convert sticky to lore</string>
+  <string name="ui_create_475949" formatted="false">Create</string>
+  <string name="ui_create_a_storyline_chapter_or_scene__afb9d9" formatted="false">Create a storyline, chapter, or scene; then link a reveal to ancient history.</string>
+  <string name="ui_create_legacy_relationship_7a5db9" formatted="false">Create legacy relationship</string>
+  <string name="ui_create_my_world_fde6e0" formatted="false">Create my world</string>
+  <string name="ui_create_record_3ec9f1" formatted="false">Create record</string>
+  <string name="ui_create_revision_unlock_for_editing_6d8225" formatted="false">Create revision / Unlock for editing</string>
+  <string name="ui_create_world_ce05cb" formatted="false">Create world</string>
+  <string name="ui_customize_canon_writing_labels_c1ef11" formatted="false">Customize canon / writing labels</string>
+  <string name="ui_date_form_2f666b" formatted="false">Date form</string>
+  <string name="ui_delete_archived_world_2beac1" formatted="false">Delete archived world?</string>
+  <string name="ui_delete_world_c49b06" formatted="false">Delete world</string>
+  <string name="ui_direction_9c8a95" formatted="false">Direction</string>
+  <string name="ui_done_11a676" formatted="false">Done</string>
+  <string name="ui_duplicate_02cdaa" formatted="false">Duplicate</string>
+  <string name="ui_duration_event_separate_start_and_en_7fbc6e" formatted="false">Duration event (separate start and end)</string>
+  <string name="ui_earliest_possible_year_d03b50" formatted="false">Earliest possible year</string>
+  <string name="ui_entry_type_e8aa77" formatted="false">Entry type</string>
+  <string name="ui_epoch_codex_c2578a" formatted="false">Epoch Codex</string>
+  <string name="ui_epoch_terminology_eb3593" formatted="false">Epoch terminology</string>
+  <string name="ui_era_terminology_e5b436" formatted="false">Era terminology</string>
+  <string name="ui_estimated_year_408aca" formatted="false">Estimated year</string>
+  <string name="ui_existing_semantic_relationship_368080" formatted="false">Existing semantic relationship</string>
+  <string name="ui_explicit_historical_states_88ef85" formatted="false">Explicit historical states</string>
+  <string name="ui_explicitly_shareable_section_still_r_c1ffd4" formatted="false">Explicitly shareable section (still requires account approval)</string>
+  <string name="ui_explore_sample_world_5748de" formatted="false">Explore sample world</string>
+  <string name="ui_export_canvas_715fa4" formatted="false">Export Canvas</string>
+  <string name="ui_export_recoverable_text_161238" formatted="false">Export recoverable text</string>
+  <string name="ui_favorite_ea713e" formatted="false">Favorite</string>
+  <string name="ui_favorites_7a1f2a" formatted="false">Favorites</string>
+  <string name="ui_field_type_01f04f" formatted="false">Field type</string>
+  <string name="ui_filters_546ebb" formatted="false">Filters</string>
+  <string name="ui_find_by_title_or_alias_c58481" formatted="false">Find by title or alias</string>
+  <string name="ui_fit_all_d30cd7" formatted="false">Fit all</string>
+  <string name="ui_full_notes_markdown_507f1f" formatted="false">Full notes · Markdown</string>
+  <string name="ui_group_34ca0e" formatted="false">Group</string>
+  <string name="ui_has_image_5e2b9b" formatted="false">Has image</string>
+  <string name="ui_hide_deprecate_field_preserve_value_7b0816" formatted="false">Hide/deprecate field (preserve value)</string>
+  <string name="ui_import_image_bf2f1b" formatted="false">Import image</string>
+  <string name="ui_import_validated_bad364" formatted="false">Import validated</string>
+  <string name="ui_inbox_94835e" formatted="false">Inbox</string>
+  <string name="ui_include_in_recorded_public_history_52b83c" formatted="false">Include in recorded/public history</string>
+  <string name="ui_information_role_0c5ddb" formatted="false">Information role</string>
+  <string name="ui_insert_entry_link_fb550b" formatted="false">Insert entry link</string>
+  <string name="ui_insert_stable_entry_link_7a4850" formatted="false">Insert stable entry link</string>
+  <string name="ui_internal_recovery_survives_editing_m_0d2054" formatted="false">Internal recovery survives editing mistakes, not uninstall or device loss. External archives are not encrypted. Android cloud backup is disabled.</string>
+  <string name="ui_jump_fit_period_b31c0f" formatted="false">Jump / fit period</string>
+  <string name="ui_jump_to_resolved_period_event_4c2cda" formatted="false">Jump to resolved period / event</string>
+  <string name="ui_knowledge_ledger_a5e1c3" formatted="false">Knowledge ledger</string>
+  <string name="ui_knowledge_state_c1b06a" formatted="false">Knowledge state</string>
+  <string name="ui_label_0e6637" formatted="false">Label</string>
+  <string name="ui_last_successful_external_backup_56304b" formatted="false">Last successful external backup: </string>
+  <string name="ui_latest_possible_year_4a2f42" formatted="false">Latest possible year</string>
+  <string name="ui_layout_preview_045d7c" formatted="false">Layout preview</string>
+  <string name="ui_legacy_what_remains_1181f0" formatted="false">Legacy / What remains?</string>
+  <string name="ui_link_a_surviving_consequence_e38d06" formatted="false">Link a surviving consequence</string>
+  <string name="ui_link_entry_c7db67" formatted="false">Link entry</string>
+  <string name="ui_link_lore_46ed17" formatted="false">Link lore</string>
+  <string name="ui_link_suggestions_choose_identity_216702" formatted="false">Link suggestions — choose identity</string>
+  <string name="ui_linked_markdown_images_zip_38caa4" formatted="false">Linked Markdown + images ZIP</string>
+  <string name="ui_local_year_numbering_starts_at_1_6ca71d" formatted="false">Local year (numbering starts at 1)</string>
+  <string name="ui_lore_relationship_shared_across_worl_c53221" formatted="false">Lore relationship (shared across world)</string>
+  <string name="ui_managed_gallery_2a7dff" formatted="false">Managed gallery</string>
+  <string name="ui_maximum_offset_939c98" formatted="false">Maximum offset</string>
+  <string name="ui_menu_99af66" formatted="false">Menu</string>
+  <string name="ui_minimum_offset_negative_before_1c2e56" formatted="false">Minimum offset (negative = before)</string>
+  <string name="ui_multi_select_e9f589" formatted="false">Multi-select</string>
+  <string name="ui_multiple_states_recorded_review_each_3361db" formatted="false">Multiple states recorded. Review each; no state was selected automatically.</string>
+  <string name="ui_name_dcd1d5" formatted="false">Name</string>
+  <string name="ui_new_relationship_with_detailed_notes_87ca6b" formatted="false">New relationship with detailed notes</string>
+  <string name="ui_new_world_3e2818" formatted="false">New world</string>
+  <string name="ui_no_explicit_world_states_recorded_fo_056867" formatted="false">No explicit world states recorded for this period.</string>
+  <string name="ui_no_ledger_record_means_unspecified_k_4b9aad" formatted="false">No ledger record means unspecified. Knowledge does not propagate to faction members.</string>
+  <string name="ui_no_matching_lore_yet_use_to_capture__f28700" formatted="false">No matching lore yet. Use + to capture an idea.</string>
+  <string name="ui_no_state_recorded_for_this_period_826ab1" formatted="false">No state recorded for this period</string>
+  <string name="ui_no_structural_or_chronology_conflict_4daaa6" formatted="false">No structural or chronology conflicts found.</string>
+  <string name="ui_no_tolerance_means_uncertainty_is_un_8aa5f5" formatted="false">No tolerance means uncertainty is unspecified.</string>
+  <string name="ui_nodenote_6bb5c7" formatted="false">NodeNote</string>
+  <string name="ui_not_to_scale_card_size_does_not_repr_9b3348" formatted="false">NOT TO SCALE · card size does not represent duration</string>
+  <string name="ui_occurrence_uncertainty_is_separate_f_d2b31a" formatted="false">Occurrence uncertainty is separate from a duration. Only the selected model is drawn; unused expressions are preserved.</string>
+  <string name="ui_ok_565339" formatted="false">OK</string>
+  <string name="ui_only_these_board_placements_and_thei_1fb4e2" formatted="false">Only these board placements and their local incident lines are removed. Lore and world relationships remain saved.</string>
+  <string name="ui_open_ed077f" formatted="false">Open</string>
+  <string name="ui_open_edit_9214dc" formatted="false">Open / edit</string>
+  <string name="ui_open_focused_legacy_board_8fe42b" formatted="false">Open focused legacy board</string>
+  <string name="ui_optional_explanation_aff5b5" formatted="false">Optional explanation</string>
+  <string name="ui_optional_sections_fields_0bf057" formatted="false">Optional sections &amp; fields</string>
+  <string name="ui_order_only_unplaced_c0b64c" formatted="false">Order-only / unplaced</string>
+  <string name="ui_origin_label_coordinates_remain_fixe_673d85" formatted="false">Origin label (coordinates remain fixed)</string>
+  <string name="ui_outline_eabbf3" formatted="false">Outline</string>
+  <string name="ui_overview_d4b1ea" formatted="false">Overview</string>
+  <string name="ui_participant_place_d5d4fa" formatted="false">Participant / place: </string>
+  <string name="ui_period_6e795d" formatted="false">Period</string>
+  <string name="ui_period_8ac7d1" formatted="false">Period: </string>
+  <string name="ui_period_context_fd5a2d" formatted="false">Period context</string>
+  <string name="ui_permanently_erase_content_a5b191" formatted="false">Permanently erase content?</string>
+  <string name="ui_permanently_erase_content_c8b29c" formatted="false">Permanently erase content</string>
+  <string name="ui_place_existing_b1ef46" formatted="false">Place existing</string>
+  <string name="ui_plan_a_reveal_f3f02a" formatted="false">Plan a reveal</string>
+  <string name="ui_planned_execution_and_actual_events_26d12c" formatted="false">Planned execution and actual events</string>
+  <string name="ui_preserve_data_and_convert_6f6ce0" formatted="false">Preserve data and convert</string>
+  <string name="ui_protect_approved_content_7b6d25" formatted="false">Protect approved content</string>
+  <string name="ui_protect_your_writing_f79c98" formatted="false">Protect your writing</string>
+  <string name="ui_protection_recovery_1b23ae" formatted="false">Protection &amp; recovery</string>
+  <string name="ui_quick_capture_inbox_198528" formatted="false">Quick-capture inbox</string>
+  <string name="ui_readable_exports_655b57" formatted="false">Readable exports</string>
+  <string name="ui_recorded_account_70305a" formatted="false">Recorded account</string>
+  <string name="ui_recorded_account_clear_for_author_b72e1f" formatted="false">Recorded account (Clear for author)</string>
+  <string name="ui_recorded_accounts_f695e9" formatted="false">Recorded accounts</string>
+  <string name="ui_recorded_history_2e8365" formatted="false">Recorded history</string>
+  <string name="ui_recovery_history_23f8e0" formatted="false">Recovery history</string>
+  <string name="ui_redo_742739" formatted="false">Redo</string>
+  <string name="ui_relationships_85752a" formatted="false">Relationships</string>
+  <string name="ui_remove_from_board_1c6124" formatted="false">Remove from board</string>
+  <string name="ui_remove_local_line_4d4d6a" formatted="false">Remove local line</string>
+  <string name="ui_rename_world_00ef80" formatted="false">Rename world</string>
+  <string name="ui_replace_matching_world_identities_a066b7" formatted="false">Replace matching world identities</string>
+  <string name="ui_reset_daee76" formatted="false">Reset</string>
+  <string name="ui_restore_as_new_revision_b5a566" formatted="false">Restore as new revision</string>
+  <string name="ui_restore_nodenote_json_canvas_import_4ffdda" formatted="false">Restore / NodeNote / JSON Canvas import</string>
+  <string name="ui_restore_or_import_existing_notes_7c3066" formatted="false">Restore or import existing notes</string>
+  <string name="ui_return_to_author_s_history_f161ce" formatted="false">Return to author\'s history</string>
+  <string name="ui_reuse_167317" formatted="false">Reuse: </string>
+  <string name="ui_reuse_lore_on_this_board_7fd860" formatted="false">Reuse lore on this board</string>
+  <string name="ui_revision_retention_per_record_06a9b2" formatted="false">Revision retention per record</string>
+  <string name="ui_same_year_sequence_is_valid_unknown__4a17ff" formatted="false">Same-year sequence is valid. Unknown distance does not invent a year.</string>
+  <string name="ui_save_1509f5" formatted="false">Save</string>
+  <string name="ui_save_filter_9fe519" formatted="false">Save filter</string>
+  <string name="ui_save_label_f724b6" formatted="false">Save label</string>
+  <string name="ui_save_origin_label_72bf62" formatted="false">Save origin label</string>
+  <string name="ui_save_period_terminology_ca92eb" formatted="false">Save period terminology</string>
+  <string name="ui_scaled_24e0a1" formatted="false">Scaled</string>
+  <string name="ui_search_title_alias_or_full_notes_6ead78" formatted="false">Search title, alias, or full notes</string>
+  <string name="ui_select_this_placement_37c08e" formatted="false">Select this placement</string>
+  <string name="ui_set_retention_8864a1" formatted="false">Set retention</string>
+  <string name="ui_set_revision_retention_e2edb1" formatted="false">Set revision retention?</string>
+  <string name="ui_settings_backup_fdb209" formatted="false">Settings &amp; backup</string>
+  <string name="ui_signed_year_coordinate_a2b928" formatted="false">Signed year coordinate</string>
+  <string name="ui_solid_spans_duration_dashed_uncertai_3fc25c" formatted="false">Solid spans = duration · dashed = uncertainty · dots = occurrence. The list below provides full-size targets.</string>
+  <string name="ui_stable_references_ad92f0" formatted="false">Stable references</string>
+  <string name="ui_stage_state_806445" formatted="false">Stage state</string>
+  <string name="ui_sticky_874717" formatted="false">Sticky</string>
+  <string name="ui_story_order_d2fb87" formatted="false">Story order</string>
+  <string name="ui_story_reveals_separate_from_history_f19252" formatted="false">Story reveals (separate from history)</string>
+  <string name="ui_summary_8e76a9" formatted="false">Summary</string>
+  <string name="ui_switch_world_5c4e2c" formatted="false">Switch world</string>
+  <string name="ui_symmetric_relationship_5bc42c" formatted="false">Symmetric relationship</string>
+  <string name="ui_tag_150391" formatted="false">Tag</string>
+  <string name="ui_tags_comma_separated_35b1f0" formatted="false">Tags (comma separated)</string>
+  <string name="ui_template_field_definitions_005e1a" formatted="false">Template field definitions</string>
+  <string name="ui_text__a318c2" formatted="false">+</string>
+  <string name="ui_the_epoch_codex_9fa88c" formatted="false">The Epoch Codex</string>
+  <string name="ui_theme_efb52e" formatted="false">Theme</string>
+  <string name="ui_there_are_changes_after_the_last_rec_acc54c" formatted="false">There are changes after the last recorded backup.</string>
+  <string name="ui_title_7e8cd2" formatted="false">Title</string>
+  <string name="ui_tolerance_in_years_optional_c0bfa2" formatted="false">Tolerance in years (optional)</string>
+  <string name="ui_track_051f01" formatted="false">Track</string>
+  <string name="ui_type_baaddf" formatted="false">Type</string>
+  <string name="ui_undo_a8283a" formatted="false">Undo</string>
+  <string name="ui_unresolved_tray_ab3195" formatted="false">Unresolved tray</string>
+  <string name="ui_use_as_entry_cover_cb1811" formatted="false">Use as entry cover</string>
+  <string name="ui_use_fixed_present_anchor_6f5342" formatted="false">Use fixed Present anchor</string>
+  <string name="ui_value_8e3795" formatted="false">Value</string>
+  <string name="ui_who_knows_or_believes_this_abd26d" formatted="false">Who knows or believes this?</string>
+  <string name="ui_working_a92f04" formatted="false">Working</string>
+  <string name="ui_world_name_bf050f" formatted="false">World name</string>
+  <string name="ui_world_state_in_this_period_953c05" formatted="false">World state in this period</string>
+  <string name="ui_write_edit_epoch_notes_2ae8b5" formatted="false">Write / edit epoch notes</string>
+  <string name="ui_writing_a8bfae" formatted="false">Writing</string>
+  <string name="ui_writing_owned_fields_historical_stat_6a2b04" formatted="false">Writing, owned fields, historical state prose, and entry revision snapshots will be erased. Typed identity tombstones preserve incoming links. A full internal recovery backup is made first; attachments remain pinned. Export an external backup before erasing important writing.</string>
+  <string name="ui_your_worlds_bd4313" formatted="false">Your worlds</string>
+  <string name="ui_zoom_263f36" formatted="false">Zoom −</string>
+  <string name="ui_zoom_a69bfe" formatted="false">Zoom +</string>
+</resources>

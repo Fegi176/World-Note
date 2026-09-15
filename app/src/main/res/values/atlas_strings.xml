@@ -1,0 +1,22 @@
+<resources>
+    <string name="atlas_0c67be7951" formatted="false">Keep draft as new revision</string>
+    <string name="atlas_0d7c5880d3" formatted="false">Search recorded history</string>
+    <string name="atlas_30effb8078" formatted="false">Recorded History</string>
+    <string name="atlas_33799afe66" formatted="false">Safety copies</string>
+    <string name="atlas_3b40a894d7" formatted="false">No safety copies yet.</string>
+    <string name="atlas_4a13d2dea8" formatted="false">Storage &amp; recovery</string>
+    <string name="atlas_4f1f63742c" formatted="false">Remove copy</string>
+    <string name="atlas_5ce67e9a25" formatted="false">Include trash in results</string>
+    <string name="atlas_6a2299cf17" formatted="false">Period: </string>
+    <string name="atlas_6e0d283c90" formatted="false">Original images are preserved. Previews are rebuilt when needed.</string>
+    <string name="atlas_744f735032" formatted="false">Keep copy</string>
+    <string name="atlas_75d78d36a8" formatted="false">Clear preview cache</string>
+    <string name="atlas_85eb8abc7a" formatted="false">Export copy</string>
+    <string name="atlas_9113f65c77" formatted="false">Search your world</string>
+    <string name="atlas_bbafbee877" formatted="false">Return to author\'s history</string>
+    <string name="atlas_c167fb329d" formatted="false">NODENOTE  /  WORLD ATLAS</string>
+    <string name="atlas_e963907dac" formatted="false">Remove</string>
+    <string name="atlas_ee666709b9" formatted="false">Use saved version; preserve alternate</string>
+    <string name="atlas_f12388d970" formatted="false">Remove this safety copy?</string>
+    <string name="atlas_fcf3c942a4" formatted="false">Review restore</string>
+</resources>
