@@ -27,4 +27,4 @@ Use the commands in README. Dependency resolution needs network during setup; th
 
 Windows builds use in-process Kotlin compilation and a single-use Gradle daemon (`org.gradle.daemon=false`). Reused compiler/build daemons intermittently held `classes.jar` open; stopping the task-owned daemon and rebuilding resolved this host issue. Avoid concurrent Gradle invocations against the same checkout.
 
-CI in `.github/workflows/android.yml` pins official action commits, validates the wrapper, builds/tests/lints and optionally runs an API 34 emulator. Remote CI has not been executed. Release signing and same-package legacy upgrades need separately supplied matching credentials and are not configured.
+CI in `.github/workflows/android.yml` pins official action commits, validates the wrapper, builds/tests/lints and optionally runs an API 34 emulator. GitHub Actions started after repository publication; consult its current result rather than inferring CI success from local tests. Release signing and same-package legacy upgrades need separately supplied matching credentials and are not configured.

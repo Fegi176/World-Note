@@ -30,7 +30,7 @@ The native Kotlin/Compose/Room app retains the REQUIRED WB-01–WB-18 implementa
 2. Manual spoken TalkBack review and remaining partial/manual acceptance permutations remain open. Automated checks do not certify every interaction.
 3. Hostile-provider, actual full-volume and exhaustive hardware power-loss tests remain open. Prior restore fault tests cover four file/database boundaries; settled restart checks do not prove arbitrary unsaved-keystroke recovery.
 4. Canvas uses at most 64 visible unique image previews at once, sampled to at most 256px per dimension, with an 8MiB cache. Open Media for the full image. Large worlds retain a complete logical snapshot with incremental record reuse. English only; further localization is pending.
-5. Optional matching-signature legacy upgrade needs original source/signing credentials. WX-01–WX-06 remain extended, FUT-01–FUT-03 excluded. Remote CI has not run.
+5. Optional matching-signature legacy upgrade needs original source/signing credentials. WX-01–WX-06 remain extended, FUT-01–FUT-03 excluded. GitHub Actions is configured and was started after publication; consult its current result separately from the local evidence above.
 
 ## Delivery
 
