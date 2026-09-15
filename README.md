@@ -41,6 +41,14 @@ Wait for **Saved** before deliberately closing the app. Backups contain readable
 
 ## Build and install
 
+### Download the APK
+
+**[Download NodeNote 0.2.1 for Android](https://github.com/Fegi176/NodeNote/releases/download/v0.2.1/NodeNote-Worldbuilder-0.2.1.apk)** · [Release notes](https://github.com/Fegi176/NodeNote/releases/tag/v0.2.1)
+
+Open the APK on your phone to install. This signed test release was tested on Android 14 and uses the same signing certificate as the existing 0.2.1 phone installation. Install over that version to keep your data. Android may ask you to allow installation from your browser or file manager. Downloads require repository access while this repository is private.
+
+### Build from source
+
 Requirements: **JDK 17**, Android SDK **platform 36**, **build-tools 35.0.0**, and platform-tools. Android 14 is the verified phone/runtime target; compile SDK 36 does not require an Android 16 phone.
 
 ~~~powershell
